@@ -1,0 +1,718 @@
+*{                                 /* ----------------navigation bar---------- */
+    margin: 0;
+    border:border-box;
+    font-family: "Poppins", sans-serif;
+}
+.globalnav-bar{
+    /* position: sticky; */
+    box-shadow: 0px 15px 8px rgb(244, 244, 245,0.7);/* ----------------box shadow added---------- */
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    color: #3d4152;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.nav-bar{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.swiggy-icon{
+    height: 48.2px;
+    width: 48.2px;
+    background-image:url(images/icon.jpg) ;
+    background-size: cover;
+    background-position: bottom 50% left 50%;
+    border-radius: 15px;
+    transition-duration: 0.15s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+.other-text{
+    display: flex;
+    padding-left: 40px;
+    font-size: small;
+    font-weight: bold;
+}
+.other-text i{
+    margin-left: 15px;
+    margin-top: 3px;
+    color:#FF5005;
+}
+.other-text p{
+    border-bottom: 2px solid #3d4152;
+    }
+.nav-list {
+    font-size:0.9rem ;
+    font-weight: 500;
+    width: 1100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items:flex-end;
+    align-items: center;
+}
+.fa-badge-percent{
+    font-size:0.8rem;
+    font-weight: bold;
+}
+.nav-list a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #3d4152;
+}
+.nav-list i{
+    margin-right: 8px;
+}
+.sup{
+    margin-left: 4px;
+    margin-bottom: 8px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #ff9305;
+}                       /* ----------------navigation bar end---------- */
+                     
+ /* -------------------first body section---------------- */
+ 
+  .main{
+    margin-top: 12px;
+   display: flex;
+   flex-direction:column ;
+   justify-content: center;
+   align-items: center;
+
+  }  
+ 
+
+ .mind-section{
+    margin-top: 5px;
+    height: 260px;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #3d41522c;
+   
+ }
+ .mind-text{
+    width: 1050px;
+    display: flex;
+    justify-content:space-between;
+ }
+ 
+ .mindsec-img{
+    margin-left: 100px;
+ }
+.mindsec-img img{
+    margin-right: 30px;
+    height:180px ;
+    width: 144px;
+}
+.mind-text h2{
+    margin-left: 5px;
+    font-size: 1.35rem;
+}
+.arrow-left{
+    margin-left: 735px;
+    color: #3d415283;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: rgba(196, 201, 201, 0.349);
+}
+.arrow-right{
+    margin-right: -20px;
+    color: #3d4152;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: rgba(182, 185, 185, 0.478);
+}
+                    /* ----------top restaurant---------------- */
+.top-rest{
+    height: 380px;
+    width: 1050px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid  #3d415242;
+}
+.top-resimg{
+    display: flex;
+}
+.top-heading{
+    margin-bottom: 15px;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-heading h2{
+    font-size: 1.3rem;
+    color: #02060CEB;
+    font-weight: 780;
+}
+.pizzahut{
+    height: 182px;
+    width: 273px;
+    background-image: url(images/pizzahut.avif);
+    background-size:cover;
+    background-position:top 50% left 45%;
+    border-radius: 13px;
+    box-shadow: 0px -35px 40px black inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.pizzahut p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.top-pic-head{
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.top-rating{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.top-disc{
+    color: #3d4152a1;
+}
+.top-rating i{
+    color: #13a810;
+    font-size: 0.9rem;
+}
+.chinese{
+    height: 182px;
+    width: 273px;
+    background-image: url(images/chinesewok.avif);
+    background-size:cover;
+    background-position: left 35% bottom 45%;
+    border-radius: 13px;
+    box-shadow: 0px -35px 40px black inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.chinese p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.kfc{
+    height: 182px;
+    width: 273px;
+    background-image: url(images/kfc.avif);
+    background-size:cover;
+    background-position: bottom 45% left 50%;
+    border-radius: 13px;
+    box-shadow: 0px -35px 40px black inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.kfc p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.subway{
+    height: 182px;
+    width: 273px;
+    background-image: url(images/subway.avif);
+    background-size:cover;
+    background-position: bottom 45% left 50%;
+    border-radius: 13px;
+    box-shadow: 0px -35px 40px black inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.subway p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.rest-img{
+    height: 285px;
+    width: 272px;
+    margin-right: 30px;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function:ease-in;
+}
+.res-img1{
+    margin-left:130px ;
+}
+.arrow-left2{
+    margin-left: 650px;
+    color: #3d415283;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: rgba(196, 201, 201, 0.349);
+}
+.arrow-right2{
+    margin-right:-20px;
+    color: #3d4152;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: rgba(182, 185, 185, 0.478);
+}
+.discrp{
+    margin-left: 8px;
+}
+/* --------------food delivery section---------------- */
+.food-deli{
+    width: 1112px;
+    height: 800px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom:1px solid #3d41522c; 
+
+}
+.deli-list ul li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+.deli-list ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.85rem;
+    font-weight: 450;
+}
+.deli-list{
+    margin-left: -9px;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.deli-list ul li a i{
+    margin-left: 6px;
+}
+.deli-list ul li{
+    height: 36px;
+    width: auto;
+    border: 1px solid #3d41522c;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 7px;
+    padding-top: 3px;
+    padding-bottom: -3px;
+    
+}
+/* image sorting */
+.deli-img{
+    width: 1200px;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    margin-left: 58px;
+}
+.deli-imgstorage1{
+    width: 255px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    
+
+}
+.deli-img1{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/pizzahut.avif);
+    background-size: cover;
+    background-position: bottom 49% left 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.deli-img1 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+}
+.deli-descr1{
+    margin-left: 8px;
+}
+.deli-img2{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/chinesewok.avif);
+    background-size: cover;
+    background-position: bottom 49% left 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.deli-img2 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.deli-img3{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/kfc.avif);
+    background-size: cover;
+    background-position: bottom 49% left 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.deli-img3 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.deli-img4{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/subway.avif);
+    background-size: cover;
+    background-position: bottom 49% left 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.deli-img4 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.deli-img5{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/al\ husai.avif);
+    background-size: cover;
+    background-position: bottom 49% left 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.deli-img5 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.deli-img6{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/boba\ bar.avif);
+    background-size: cover;
+    background-position: bottom 49% left 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.deli-img6 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.deli-img7{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/sundaeicecream.avif);
+    background-size: cover;
+    background-position: left 49% top 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.deli-img7 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.deli-img8{
+    width: 254px;
+    height: 170px;
+    box-shadow: 0px -35px 40px black inset ;
+    background-image: url(images/wowchina.avif);
+    background-size: cover;
+    background-position: bottom 49% left 40%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.deli-img8 p{
+    margin-left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.deli-title{
+    height: 36.8px;
+    width: 1112px;
+    padding-left: 65px ;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #02060CEB;
+    font-weight: 780;
+}
+
+.footer{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.first-foot{
+    height: 480px;
+    width: 85vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-width: 60vw ;
+    border-radius: 1px solid #3d41522c;
+}
+.first-footrow{
+ display: flex;
+ justify-content: center;
+ font-size: 16px;
+ font-weight: 600;
+ color: #02060CBF;
+}
+.first-footrow div{
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    padding: 0px 16px 0px 16px;
+    text-align: center;
+    width: 260px;
+    border: 1px solid #3d41522c;
+    border-radius: 13px;
+}
+.foothead1{
+    margin-left: -650px;
+    font-size: 1.3rem;
+    color: #02060CEB;
+    font-weight: 780;
+}
+.foothead2{
+    margin-left: -650px;
+    font-size: 1.3rem;
+    color: #02060CEB;
+    font-weight: 780;
+}
+.first-footrow{
+    margin-left:8px ;
+    font-size: 15px;
+}
+.lastrowFoot{
+    margin-left: -645px;
+}
+.last-foot{
+    height: 600px;
+    width: 100%;
+    background-color: #f2f5f4;
+    border-top: 1px solid  #02060c51;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.app-symbl{
+    margin-top: -140px;
+    height: 145px;
+    width: 1064px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playstore{
+    width: 202px;
+    height: 64px;
+    background-image: url(images/playstore.avif);
+    background-size: cover;
+    margin-right: 15px;
+}
+.appstore{
+    width: 186.2px;
+    height: 64px;
+    background-image: url(images/appstore.avif);
+    background-size: cover;
+}
+.symbl-text p{
+    font-size: 20px;
+    color: #02060CEB;
+    font-weight: 780;
+    margin-left: -35px;
+    padding-right: 15px;
+}
+.last-footbot{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.entr-img{
+    width: 160px;
+    height: 49px;
+    background-image: url(images/swiggyfullimg.webp);
+    background-size: cover;
+    
+}
+.last-footbot{
+    font-size: 0.9rem;
+    color: #02060C99;
+}
+.swig-img{
+    position: relative;
+    bottom: 80px;
+    right: 25px;
+    margin-right: 250px;
+
+}
+.last1{
+    margin-top: 40px;
+    height: 300px;
+    width: 132px;
+    margin-left: -150px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.last2{
+    margin-bottom: -110px;
+    height: 365px;
+    width: 132px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.last3{
+    margin-bottom: -20px;
+    height: 280px;
+    width: 132px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.last4{
+    margin-bottom: -20px;
+    height: 280px;
+    width: 144px;
+    margin-right: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.last-bold{
+    font-size: 16px;
+    font-weight: bold;
+    color: #02060CEB
+}
+.last4 i{
+    margin-right: 13px;
+    color: #02060cab;
+    font-size: 16px;
+
+}
+.last3 span{
+    height: 32px;
+    width: 120px;
+    border: 1px solid #3d41522c;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.last3 span i{
+    margin-left: 28px;
+    color: #02060cc6;
+    font-weight: 500;
+}
+
+/*--------------- animation (transition and transform)--------------------- */
+.rest-img:hover{
+   transform: scale(0.95);
+}
+.converge:hover{
+   transform: scale(0.95);
+}
+.popup:hover{
+    transform: scale(1.1);
+}
+.glow:hover{
+    color:#FF5005 ;
+}
